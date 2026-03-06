@@ -1,0 +1,12 @@
+{
+    "video": "fightclub.mp4",
+    "dominant_emotion": "sad",
+    "emotion_counts": {
+        "angry": 30,
+        "neutral": 32,
+        "sad": 92,
+        "fear": 19,
+        "happy": 16,
+        "disgust": 1
+    }
+}

@@ -1,0 +1,20 @@
+import os
+
+# project root
+current_dir = os.path.dirname(__file__)
+project_root = os.path.abspath(os.path.join(current_dir, ".."))
+
+# transcription file
+input_path = os.path.join(project_root, "data", "transcription.txt")
+output_path = os.path.join(project_root, "data", "clean_text.txt")
+
+with open(input_path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# simple cleaning
+clean_text = text.replace("\n", " ").strip()
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(clean_text)
+
+print("Text cleaned successfully!")
