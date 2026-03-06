@@ -1,0 +1,21 @@
+# Ignore video files
+data/*.mp4
+
+# Ignore audio files
+data/*.wav
+
+# Ignore transcription outputs
+data/*.txt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore temporary files
+*.log
